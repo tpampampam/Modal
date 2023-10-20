@@ -1,0 +1,20 @@
+.footer {
+    padding-top: 14px;
+    position: fixed;
+    background-color:beige;
+    min-height: 100px;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.items {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}

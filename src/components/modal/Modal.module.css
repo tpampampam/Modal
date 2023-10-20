@@ -1,0 +1,90 @@
+.wrapper {
+ 
+    position:fixed;
+    display:flex;
+    width:100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.7);
+    z-index:100;
+}
+
+
+.modal {
+    position: relative;
+    width: 300px;
+    height: 120px;
+    margin: 0 auto;
+    padding: 15px;
+    border: blanchedalmond solid 1px;
+    background-color:cornsilk;
+}
+.closer {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.modal form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+}
+.modal input {
+    width: 100%;
+    height: 30px;
+    outline:none;
+}
+.modal button {
+    height: 40px;
+}
+
+
+
+/* ModalProblem */
+
+
+.modal__problem {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border: blanchedalmond solid 1px;
+    background-color:cornsilk;
+}
+.closer {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
+
+.modal__problem form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100%;
+}
+.modal__problem input {
+    width: 33%;
+    height: 30px;
+    outline:none;
+}
+.modal__problem textarea{
+    width: 100%;
+    height: 200px;
+    resize: none;
+    margin-bottom: 23px;
+
+}
+
+.modal__problem button {
+    position: absolute;
+    height: 40px;
+    right: 10px;
+    bottom: 10px;
+}
